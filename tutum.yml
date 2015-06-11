@@ -1,4 +1,5 @@
 nginx:
   image: tutum/nginx
+  autorestart: always
   ports:
     - 80:80
